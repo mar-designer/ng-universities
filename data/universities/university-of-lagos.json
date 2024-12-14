@@ -1,0 +1,36 @@
+{
+  "name": "University of Lagos",
+  "acronym": "UNILAG",
+  "location": {
+    "city": "Lagos",
+    "state": "Lagos"
+  },
+  "founded": 1962,
+  "website": "https://unilag.edu.ng",
+  "faculties": [
+    {
+      "name": "Faculty of Science",
+      "departments": [
+        "Biochemistry",
+        "Botany",
+        "Chemistry",
+        "Computer Science",
+        "Geology",
+        "Microbiology",
+        "Physics",
+        "Zoology"
+      ]
+    },
+    {
+      "name": "Faculty of Arts",
+      "departments": [
+        "Creative Arts",
+        "English",
+        "Foreign Languages",
+        "History and Diplomatic Studies",
+        "Linguistics and African Languages",
+        "Philosophy"
+      ]
+    }
+  ]
+}

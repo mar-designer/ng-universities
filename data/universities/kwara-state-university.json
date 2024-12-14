@@ -1,0 +1,34 @@
+{
+  "name": "Kwara State University",
+  "acronym": "KWASU",
+  "location": {
+    "city": "Ilorin",
+    "state": "Kwara"
+  },
+  "founded": 2009,
+  "website": "https://kwasu.edu.ng",
+  "faculties": [
+    {
+      "name": "Faculty of Science",
+      "departments": [
+        "Biochemistry",
+        "Botany",
+        "Chemistry",
+        "Computer Science",
+        "Geology",
+        "Microbiology",
+        "Physics",
+        "Zoology"
+      ]
+    },
+    {
+      "name": "Faculty of Engineering & Technology",
+      "departments": [
+        "Aeronautical and Astronautical Engineering",
+        "Mechanical Engineering",
+        "Materials Science Engineering",
+        "Food, Agric & Biological Engineering"
+      ]
+    }
+  ]
+}

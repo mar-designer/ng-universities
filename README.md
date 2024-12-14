@@ -1,40 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ng-universities
 
-## Getting Started
+This is a public API of comprehensive, community-driven database of Nigerian universities, their faculties, and departments.
 
-First, run the development server:
+## How to Contribute
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Adding University Data
+
+1. **Data Format**:
+   - Create a new JSON file in the `data/universities/` directory
+   - Name the file using the university's lowercase name with hyphens (e.g., `kwara-state-university.json`)
+   - Follow the standard JSON structure provided in the documentation
+
+2. **Contribution Steps**:
+   - Fork the repository
+   - Create a new branch (`git checkout -b add-university-data`)
+   - Add your university JSON file
+   - Run data validation script
+   - Commit changes
+   - Create a Pull Request
+
+### Data Validation
+
+Before submitting:
+- Ensure all required fields are filled
+- Validate JSON structure
+- Check for accuracy of information
+
+If you forget to do this. Do not fret, the CI workflow would help us detect it in your PR.
+
+See below is an example structure we're looking for.
+
+```json
+{
+  "name": "Full University Name",
+  "acronym": "Acronym",
+  "location": {
+    "city": "City Name",
+    "state": "State Name"
+  },
+  "founded": 1900,
+  "website": "https://university.edu.ng",
+  "faculties": [
+    {
+      "name": "Faculty Name",
+      "departments": [
+        "Department 1",
+        "Department 2"
+      ]
+    }
+  ]
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## License
+[MIT]
