@@ -3,8 +3,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
+import { argv } from "node:process";
 
-// Get the directory path equivalent to __dirname in ES modules
+// since we're using `type:module`, we should get the directory path equivalent to __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -108,15 +109,34 @@ function validateUniversity() {
     .filter((file) => file.endsWith(".json"));
 
   let allValid = true;
+  const option = argv[2];
 
-  universityFiles.forEach((file) => {
-    const filePath = path.join(universitiesDir, file);
+  let filesToValidate = [];
+  if (option === "--file") {
+    const fileName = argv[3];
+    if (!fileName) {
+      console.error("You need to provide a filename with this option");
+      process.exit(1);
+    }
+
+    filesToValidate = fileName
+      .split(",")
+      .map((file) => path.join(universitiesDir, `${file.trim()}.json`));
+  } else {
+    filesToValidate = universityFiles.map((file) =>
+      path.join(universitiesDir, file),
+    );
+  }
+
+  filesToValidate.forEach((filePath) => {
+    const fileName = path.basename(filePath);
     const isValid = validateUniversityFile(filePath);
+
     if (!isValid) {
       allValid = false;
-      console.error(`❌ ${file} - INVALID`);
+      console.error(`❌ ${fileName} - INVALID`);
     } else {
-      console.log(`✅ ${file} - VALID`);
+      console.log(`✅ ${fileName} - VALID`);
     }
   });
 

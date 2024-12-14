@@ -14,7 +14,17 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    - Create a new branch (`git checkout -b add-university-data`)
    - Add your university JSON file or edit a pre-existing university file with more info
    - Run data validation script with this command: `pnpm run validate-unis`.
-   - Commit changes
+   You can slso decide to validate a specific file instead of runing the validation script on the entire university data by doing the following:
+   ```shell
+   pnpm run validate-unis --file kwara-state-university
+   ```
+
+   Or on a set of files like so:
+
+   ```shell
+   pnpm run validate-unis --file university-of-lagos,ekiti-state-university
+   ```
+   - Commit your changes
    - Create a Pull Request
 
 ### Data Validation
