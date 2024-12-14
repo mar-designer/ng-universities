@@ -29,6 +29,10 @@
         "Materials Science Engineering",
         "Food, Agric & Biological Engineering"
       ]
+    },
+    {
+      "name": "Information and Communication Technology",
+      "departments": ["Computer Science"]
     }
   ]
 }

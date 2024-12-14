@@ -10,12 +10,12 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    - Follow the standard JSON structure provided in the third section below
 
 **Contribution Steps**:
-   - Fork the repository. You can learn how to do that by watching this [video](https://www.youtube.com/watch?v=-9ftoxZ2X9g)
-   - Clone the repository with this command `git clone https://github.com/<YOUR-GITHUB-USERNAME>/ng-universities`
-   - Move into the directory with this command `cd ng-universities`
-   - Create a new branch (`git checkout -b add-university-data`)
-   - Add your university JSON file or edit a pre-existing university file with more info
-   - Run data validation script with this command: `pnpm run validate-unis`.
+   1. Fork the repository. You can learn how to do that by watching this [video](https://www.youtube.com/watch?v=-9ftoxZ2X9g)
+   2. Clone the repository with this command `git clone https://github.com/<YOUR-GITHUB-USERNAME>/ng-universities`
+   3. Move into the directory with this command `cd ng-universities`
+   5. Create a new branch (`git checkout -b add-university-data`)
+   5. Add your university JSON file or edit a pre-existing university file with more info
+   6. Run data validation script with this command: `pnpm run validate-unis`.
    You can slso decide to validate a specific file instead of runing the validation script on the entire university data by doing the following:
    ```shell
    pnpm run validate-unis --file kwara-state-university
@@ -26,8 +26,8 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    ```shell
    pnpm run validate-unis --file university-of-lagos,ekiti-state-university
    ```
-   - Commit your changes
-   - Create a Pull Request
+   7. Commit your changes with this command: `git commit -m "a message indicating what you've done"`
+   8. Create a Pull Request. [Watch this](https://www.youtube.com/watch?v=nCKdihvneS0)
 
 ### Data Validation
 
