@@ -4,18 +4,16 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
 
 ## How to Contribute
 
-### Adding University Data
-
-1. **Data Format**:
-   - Create a new JSON file in the `data/universities/` directory
+**Data Format**:
+   - Create a new JSON file in the `data/universities/` folder
    - Name the file using the university's lowercase name with hyphens (e.g., `kwara-state-university.json`)
-   - Follow the standard JSON structure provided in the documentation
+   - Follow the standard JSON structure provided in the third section below
 
-2. **Contribution Steps**:
+**Contribution Steps**:
    - Fork the repository
    - Create a new branch (`git checkout -b add-university-data`)
-   - Add your university JSON file
-   - Run data validation script
+   - Add your university JSON file or edit a pre-existing university file with more info
+   - Run data validation script with this command: `pnpm run validate-unis`.
    - Commit changes
    - Create a Pull Request
 
@@ -28,7 +26,7 @@ Before submitting:
 
 If you forget to do this. Do not fret, the CI workflow would help us detect it in your PR.
 
-See below is an example structure we're looking for.
+Below is an example structure we're looking for.
 
 ```json
 {
@@ -54,4 +52,4 @@ See below is an example structure we're looking for.
 
 
 ## License
-[MIT]
+[MIT](LICENSE)
