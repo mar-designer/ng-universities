@@ -1,0 +1,56 @@
+{
+  "name": "Obafemi Awolowo University",
+  "acronym": "OAU",
+  "location": {
+    "city": "Ile-Ife",
+    "state": "Osun"
+  },
+  "founded": 1961,
+  "website": "https://oauife.edu.ng",
+  "faculties": [
+    {
+      "name": "Faculty of Administration",
+      "departments": [
+        "International Relations",
+        "Local Government and Development Studies",
+        "Management and Account",
+        "Public Administration"
+      ]
+    },
+    {
+      "name": "Faculty of Law",
+      "departments": [
+        "Business Law",
+        "International Law",
+        "Public Law",
+        "Jurisprudence and Private Law"
+      ]
+    },
+    {
+      "name": "Faculty of Science",
+      "departments": [
+        "Biochemistry",
+        "Mathematics",
+        "Botany",
+        "Chemistry",
+        "Geology",
+        "Microbiology",
+        "Zoology",
+        "Physics"
+      ]
+    },
+    {
+      "name": "Faculty of Engineering & Technology",
+      "departments": [
+        "Aeronautical and Astronautical Engineering",
+        "Mechanical Engineering",
+        "Materials Science and Engineering",
+        "Food Science and Engineering",
+        "Computer Science and Engineering",
+        "Chemical Engineering",
+        "Agricultural and Environmental Engineering",
+        "Civil Engineering"
+      ]
+    }
+  ]
+}
