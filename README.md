@@ -12,6 +12,7 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
 **Contribution Steps**:
    - Fork the repository. You can learn how to do that by watching this [video](https://www.youtube.com/watch?v=-9ftoxZ2X9g)
    - Clone the repository with this command `git clone https://github.com/<YOUR-GITHUB-USERNAME>/ng-universities`
+   - Move into the directory with this command `cd ng-universities`
    - Create a new branch (`git checkout -b add-university-data`)
    - Add your university JSON file or edit a pre-existing university file with more info
    - Run data validation script with this command: `pnpm run validate-unis`.
