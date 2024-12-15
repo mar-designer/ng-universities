@@ -51,6 +51,138 @@
         "Agricultural and Environmental Engineering",
         "Civil Engineering"
       ]
+    },
+    {
+      "name": "Faculty of Agriculture",
+      "departments": [
+        "Agricultural Econonomics",
+        "Animal Sciences",
+        "Crop Protection and Production",
+        "Plant Science",
+        "Soil Science",
+        "Agricultural Extenstion and Rural Development",
+        "Family Nutrition and Consumer Sciences"
+      ]
+    },
+    {
+      "name": "Faculty of Agriculture",
+      "departments": [
+        "Agricultural Econonomics",
+        "Animal Sciences",
+        "Crop Protection and Production",
+        "Plant Science",
+        "Soil Science",
+        "Agricultural Extenstion and Rural Development",
+        "Family Nutrition and Consumer Sciences"
+      ]
+    },
+    {
+      "name": "Faculty of Arts",
+      "departments": [
+        "History",
+        "Music",
+        "Dramatic Art",
+        "Philosophy",
+        "English",
+        "Religious Studies",
+        "Linguistics and African Languages"
+      ]
+    },
+    {
+      "name": "Faculty of Education",
+      "departments": [
+        "Adult Education and Lifelong Learning",
+        "Arts and Social Sciences Education",
+        "Educational Foundation And Counseling",
+        "Educational Management",
+        "Institute of Education",
+        "Physical And Health Education",
+        "Science And Technology Education"
+      ]
+    },
+    {
+      "name": "Faculty of Environmental Design and Management",
+      "departments": [
+        "Building",
+        "Architecture",
+        "Estate Management",
+        "Fine And Applied Arts",
+        "Quantity Surveying",
+        "Urban and Regional Planning",
+        "Surveying And Geoinformatics"
+      ]
+    },
+    {
+      "name": "Faculty of Pharmacy",
+      "departments": [
+        "Clinical Pharmacy and Pharmacy Administration",
+        "Drug Research and Production Unit",
+        "Pharmaceutical Chemistry",
+        "Pharmaceutics",
+        "Pharmacognosy",
+        "Pharmacology"
+      ]
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "departments": [
+        "Demography and Social Statistics",
+        "Economics",
+        "Geography",
+        "Political Science",
+        "Psychology",
+        "Sociology and Anthropology"
+      ]
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "departments": [
+        "Demography and Social Statistics",
+        "Economics",
+        "Geography",
+        "Political Science",
+        "Psychology",
+        "Sociology and Anthropology"
+      ]
+    },
+    {
+      "name": "Faculty of Basic Medical Science",
+      "departments": [
+        "Anatomy and Cell Biology",
+        "Haematology and Immunology",
+        "Medical Microbiology and Parasitology",
+        "Medical Rehabilitation",
+        "Human Nutrition and Dietetics",
+        "Medical Biochemistry",
+        "Medical Pharmacology and Therapeutics",
+        "Nursing Sciences",
+        "Physiological Sciences"
+      ]
+    },
+    {
+      "name": "Faculty of Clinical Sciences",
+      "departments": [
+        "Anaesthesia",
+        "Community Health and Nutrition",
+        "Dermatology and Venerology",
+        "Medicine",
+        "Mental Health",
+        "Obstetrics, Gynaecology and Perimatology",
+        "Ophthalmology",
+        "Orthopaedics and Traumatology",
+        "Paediatrics and Child Health",
+        "Radiology"
+      ]
+    },
+    {
+      "name": "Faculty of Dentistry",
+      "departments": [
+        "Child Dental Health",
+        "Oral and Maxillofacial",
+        "Surgery and Oral Pathology",
+        "Preventive and Community Dentistry",
+        "Restorative Dentistry"
+      ]
     }
   ]
 }
