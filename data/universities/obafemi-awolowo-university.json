@@ -1,4 +1,6 @@
 {
+  "logo": "https://myschoolportal.net/blog/download/obafemi-awolowo-university-logo/",
+  "current_vc": "",
   "name": "Obafemi Awolowo University",
   "acronym": "OAU",
   "location": {
@@ -9,47 +11,51 @@
   "website": "https://oauife.edu.ng",
   "faculties": [
     {
+      "acronym": "",
       "name": "Faculty of Administration",
       "departments": [
-        "International Relations",
-        "Local Government and Development Studies",
-        "Management and Account",
-        "Public Administration"
+        { "acronym": "", "name": "International Relations" },
+        { "acronym": "", "name": "Local Government and Development Studies" },
+        { "acronym": "", "name": "Management and Account" },
+        { "acronym": "", "name": "Public Administration" }
       ]
     },
     {
+      "acronym": "",
       "name": "Faculty of Law",
       "departments": [
-        "Business Law",
-        "International Law",
-        "Public Law",
-        "Jurisprudence and Private Law"
+        { "acronym": "", "name": "Business Law" },
+        { "acronym": "", "name": "International Law" },
+        { "acronym": "", "name": "Public Law" },
+        { "acronym": "", "name": "Jurisprudence and Private Law" }
       ]
     },
     {
+      "acronym": "",
       "name": "Faculty of Science",
       "departments": [
-        "Biochemistry",
-        "Mathematics",
-        "Botany",
-        "Chemistry",
-        "Geology",
-        "Microbiology",
-        "Zoology",
-        "Physics"
+        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "", "name": "Mathematics" },
+        { "acronym": "", "name": "Botany" },
+        { "acronym": "", "name": "Chemistry" },
+        { "acronym": "", "name": "Geology" },
+        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "", "name": "Zoology" },
+        { "acronym": "", "name": "Physics" }
       ]
     },
     {
+      "acroynm": "",
       "name": "Faculty of Engineering & Technology",
       "departments": [
-        "Aeronautical and Astronautical Engineering",
-        "Mechanical Engineering",
-        "Materials Science and Engineering",
-        "Food Science and Engineering",
-        "Computer Science and Engineering",
-        "Chemical Engineering",
-        "Agricultural and Environmental Engineering",
-        "Civil Engineering"
+        { "acronym": "", "name": "Aeronautical and Astronautical Engineering" },
+        { "acronym": "", "name": "Mechanical Engineering" },
+        { "acronym": "", "name": "Materials Science and Engineering" },
+        { "acronym": "", "name": "Food Science and Engineering" },
+        { "acronym": "", "name": "Computer Science and Engineering" },
+        { "acronym": "", "name": "Chemical Engineering" },
+        { "acronym": "", "name": "Agricultural and Environmental Engineering" },
+        { "acronym": "", "name": "Civil Engineering" }
       ]
     },
     {
