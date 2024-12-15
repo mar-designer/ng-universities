@@ -5,10 +5,10 @@
     "city": "Ile-Ife",
     "state": "Osun"
   },
-  "founded": 1962,
-  "website": "https://www.oauife.edu.ng",
+  "founded": 1961,
+  "website": "https://oauife.edu.ng",
   "faculties": [
-     {
+    {
       "name": "Faculty of Administration",
       "departments": [
         "International Relations",
