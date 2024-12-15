@@ -13,44 +13,137 @@
       "departments": [
         "International Relations",
         "Local Government and Development Studies",
-        "Management and Account",
-        "Public Administration"
-      ]
+        "Management & Accounting",
+        "Public Administration",
+        "Business Administration"
+        ]
     },
     {
-      "name": "Faculty of Law",
+      "name": "Faculty of Agriculture",
       "departments": [
-        "Business Law",
-        "International Law",
-        "Public Law",
-        "Jurisprudence and Private Law"
-      ]
+        "Animal Sciences",
+        "Agricultural Economics",
+        "Agricultural Extension and Rural Sociology",
+        "Family Nutrition and Consumer Sciences",
+        "Crop Production and Protection",
+        "Soil Science and Land Resources Management"
+        ]
+    },
+    {
+      "name": "Faculty of Basic Medical Sciences",
+      "departments": [
+        "Medical Rehabilitation",
+        "Nursing Science"
+     ]
+    },
+    {
+      "name": "Faculty of Clinical Sciences",
+      "departments": [
+        "Medicine and Surgery"
+     ]
+    },
+        {
+      "name": "Faculty of Dentistry",
+      "departments": [
+        "Dentistry"
+     ]
     },
     {
       "name": "Faculty of Science",
       "departments": [
-        "Biochemistry",
-        "Mathematics",
+        "Biochemistry and Molecular Biology",
         "Botany",
         "Chemistry",
         "Geology",
         "Microbiology",
+        "Physics and Enngineering Physics",
         "Zoology",
-        "Physics"
+        "Mathematics"
       ]
     },
     {
-      "name": "Faculty of Engineering & Technology",
+      "name": "Faculty of Arts",
       "departments": [
-        "Aeronautical and Astronautical Engineering",
-        "Mechanical Engineering",
-        "Materials Science and Engineering",
-        "Food Science and Engineering",
-        "Computer Science and Engineering",
-        "Chemical Engineering",
-        "Agricultural and Environmental Engineering",
-        "Civil Engineering"
+        "Dramatic Arts",
+        "English",
+        "History",
+        "Linguistics and African Languages",
+        "Philosophy",
+        "Music",
+        "Religious Studies",
+        "Literature-in-English",
+        "Foreign Languages"
       ]
+    },
+    {
+      "name": "Faculty of Education",
+      "departments": [
+        "Science and Technology Education",
+        "Arts and Social Science Education",
+        "Adult Education and Lifelong Learning",
+        "Educational Management",
+        "Educational Technology and Library Studies",
+        " Physical and Health Education",
+        "Educational Foundations and Counselling",
+        "Continuing Education"
+        ]
+    },
+   {
+      "name": "Faculty of Environmental Design and Management",
+      "departments": [
+        "Fine Arts",
+        "Architecture",
+        "Building",
+        "Quantity Surveying",
+        "Urban and Regional Planning",
+        " Estate Management"  ,
+        "Surveying and Geoinformatics"   
+       ]
+    },     
+    {
+      "name": "Faculty of Law",
+      "departments": [
+        "Business Law",
+        "Public Law",
+        "International Law",
+        "Jurisprudence and Private Law"
+       ]
+    },
+    {
+      "name": "Faculty of Pharmacy",
+      "departments": [
+        " Clinical Pharmacy and Pharmacy Administration",
+        "Pharmaceutical Chemistry",
+        "Pharmacognosy",
+        "Pharmaceutics",
+        "Pharmacology",
+        "Drug Research and Production Unit"
+       ]
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "departments": [
+        "Demography & Social Statistics",
+        "Geography",
+        "Economics",
+        "Political Science",
+        "Psychology ",
+        "Sociology & Anthropology",
+        "Institute of Entrepreneurship and Development Studies"
+       ]
+    },
+    {
+      "name": "Faculty of Technology",
+      "departments": [
+        "Agricultural and Environmental Engineering",
+        "Chemical Engineering",
+        "Computer Science and Engineering",
+        "Electronic and Electrical Engineering ",
+        "Food Science and Technology",
+        "Civil Engineering",
+        "Mechanincal Engineering",
+        "Material Science and Engineering"
+       ]
     }
   ]
 }
