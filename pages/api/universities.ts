@@ -2,7 +2,14 @@ import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
 
+export type Department = {
+  name: string;
+  acronym: string;
+};
+
 export interface University {
+  logo: string;
+  current_vc: string;
   name: string;
   acronym: string;
   location: {
@@ -12,8 +19,9 @@ export interface University {
   founded: number;
   website: string;
   faculties: {
+    acronym: string;
     name: string;
-    departments: string[];
+    departments: Department[];
   }[];
 }
 

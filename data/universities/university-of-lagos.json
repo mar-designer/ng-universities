@@ -1,4 +1,6 @@
 {
+  "logo": "https://myschoolportal.net/blog/download/university-of-lagos-unilag-logo/",
+  "current_vc": "",
   "name": "University of Lagos",
   "acronym": "UNILAG",
   "location": {
@@ -10,26 +12,28 @@
   "faculties": [
     {
       "name": "Faculty of Science",
+      "acronym": "FOS",
       "departments": [
-        "Biochemistry",
-        "Botany",
-        "Chemistry",
-        "Computer Science",
-        "Geology",
-        "Microbiology",
-        "Physics",
-        "Zoology"
+        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "", "name": "Botany" },
+        { "acronym": "", "name": "Chemistry" },
+        { "acronym": "", "name": "Computer Science" },
+        { "acronym": "", "name": "Geology" },
+        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "", "name": "Physics" },
+        { "acronym": "", "name": "Zoology" }
       ]
     },
     {
       "name": "Faculty of Arts",
+      "acronym": "FOA",
       "departments": [
-        "Creative Arts",
-        "English",
-        "Foreign Languages",
-        "History and Diplomatic Studies",
-        "Linguistics and African Languages",
-        "Philosophy"
+        { "acronym": "", "name": "Creative Arts" },
+        { "acronym": "", "name": "English" },
+        { "acronym": "", "name": "Foreign Languages" },
+        { "acronym": "", "name": "History and Diplomatic Studies" },
+        { "acronym": "", "name": "Linguistics and African Languages" },
+        { "acronym": "", "name": "Philosophy" }
       ]
     }
   ]
