@@ -42,6 +42,8 @@ Below is an example structure we're looking for.
 
 ```json
 {
+  "logo": "",
+  "current_vc": "",
   "name": "Full University Name",
   "acronym": "Acronym",
   "location": {
@@ -52,15 +54,18 @@ Below is an example structure we're looking for.
   "website": "https://university.edu.ng",
   "faculties": [
     {
+      "acronym": "Acronym"
       "name": "Faculty Name",
       "departments": [
-        "Department 1",
-        "Department 2"
+        { "acronym": "department acroynm", "name": "department name" },
+        { "acronym": "department acroynm", "name": "department name" }
       ]
     }
   ]
 }
 ```
+
+You can find a couple of university logos [here](https://myschoolportal.net/blog/nigerian-university-logos/)
 
 
 ## License
