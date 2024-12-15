@@ -1,6 +1,6 @@
 {
   "logo": "https://myschoolportal.net/blog/download/obafemi-awolowo-university-logo/",
-  "current_vc": "",
+  "current_vc": "Professor Adebayo Simeon Bamire",
   "name": "Obafemi Awolowo University",
   "acronym": "OAU",
   "location": {
@@ -11,7 +11,7 @@
   "website": "https://oauife.edu.ng",
   "faculties": [
     {
-      "acronym": "",
+      "acronym": "ADMIN",
       "name": "Faculty of Administration",
       "departments": [
         { "acronym": "", "name": "International Relations" },
@@ -21,173 +21,179 @@
       ]
     },
     {
-      "acronym": "",
+      "acronym": "LAW",
       "name": "Faculty of Law",
       "departments": [
-        { "acronym": "", "name": "Business Law" },
-        { "acronym": "", "name": "International Law" },
-        { "acronym": "", "name": "Public Law" },
-        { "acronym": "", "name": "Jurisprudence and Private Law" }
+        { "acronym": "BL", "name": "Business Law" },
+        { "acronym": "IL", "name": "International Law" },
+        { "acronym": "PL", "name": "Public Law" },
+        { "acronym": "JPL", "name": "Jurisprudence and Private Law" }
       ]
     },
     {
-      "acronym": "",
+      "acronym": "SCIENCES",
       "name": "Faculty of Science",
       "departments": [
-        { "acronym": "", "name": "Biochemistry" },
-        { "acronym": "", "name": "Mathematics" },
-        { "acronym": "", "name": "Botany" },
-        { "acronym": "", "name": "Chemistry" },
-        { "acronym": "", "name": "Geology" },
-        { "acronym": "", "name": "Microbiology" },
-        { "acronym": "", "name": "Zoology" },
-        { "acronym": "", "name": "Physics" }
+        { "acronym": "BIO", "name": "Biochemistry" },
+        { "acronym": "MAT", "name": "Mathematics" },
+        { "acronym": "BOT", "name": "Botany" },
+        { "acronym": "CHEM", "name": "Chemistry" },
+        { "acronym": "GEO", "name": "Geology" },
+        { "acronym": "MIC", "name": "Microbiology" },
+        { "acronym": "ZOO", "name": "Zoology" },
+        { "acronym": "PHY", "name": "Physics" }
       ]
     },
     {
-      "acroynm": "",
+      "acronym": "TECH",
       "name": "Faculty of Engineering & Technology",
       "departments": [
-        { "acronym": "", "name": "Aeronautical and Astronautical Engineering" },
-        { "acronym": "", "name": "Mechanical Engineering" },
-        { "acronym": "", "name": "Materials Science and Engineering" },
-        { "acronym": "", "name": "Food Science and Engineering" },
-        { "acronym": "", "name": "Computer Science and Engineering" },
-        { "acronym": "", "name": "Chemical Engineering" },
-        { "acronym": "", "name": "Agricultural and Environmental Engineering" },
-        { "acronym": "", "name": "Civil Engineering" }
+        {
+          "acronym": "AAE",
+          "name": "Aeronautical and Astronautical Engineering"
+        },
+        { "acronym": "MEE", "name": "Mechanical Engineering" },
+        { "acronym": "MSE", "name": "Materials Science and Engineering" },
+        { "acronym": "FSE", "name": "Food Science and Engineering" },
+        { "acronym": "CSE", "name": "Computer Science and Engineering" },
+        { "acronym": "CHE", "name": "Chemical Engineering" },
+        {
+          "acronym": "AEE",
+          "name": "Agricultural and Environmental Engineering"
+        },
+        { "acronym": "CVE", "name": "Civil Engineering" }
       ]
     },
+
     {
+      "acronym": "AGRIC",
       "name": "Faculty of Agriculture",
       "departments": [
-        "Agricultural Econonomics",
-        "Animal Sciences",
-        "Crop Protection and Production",
-        "Plant Science",
-        "Soil Science",
-        "Agricultural Extenstion and Rural Development",
-        "Family Nutrition and Consumer Sciences"
+        { "acronym": "AGE", "name": "Agricultural Economics" },
+        { "acronym": "ANS", "name": "Animal Sciences" },
+        { "acronym": "CPP", "name": "Crop Protection and Production" },
+        { "acronym": "PS", "name": "Plant Science" },
+        { "acronym": "SS", "name": "Soil Science" },
+        {
+          "acronym": "AERD",
+          "name": "Agricultural Extension and Rural Development"
+        },
+        { "acronym": "FNCS", "name": "Family Nutrition and Consumer Sciences" }
       ]
     },
     {
-      "name": "Faculty of Agriculture",
-      "departments": [
-        "Agricultural Econonomics",
-        "Animal Sciences",
-        "Crop Protection and Production",
-        "Plant Science",
-        "Soil Science",
-        "Agricultural Extenstion and Rural Development",
-        "Family Nutrition and Consumer Sciences"
-      ]
-    },
-    {
+      "acronym": "ART",
       "name": "Faculty of Arts",
       "departments": [
-        "History",
-        "Music",
-        "Dramatic Art",
-        "Philosophy",
-        "English",
-        "Religious Studies",
-        "Linguistics and African Languages"
+        { "acronym": "HIS", "name": "History" },
+        { "acronym": "MUS", "name": "Music" },
+        { "acronym": "DRA", "name": "Dramatic Art" },
+        { "acronym": "PHI", "name": "Philosophy" },
+        { "acronym": "ENG", "name": "English" },
+        { "acronym": "RS", "name": "Religious Studies" },
+        { "acronym": "LAL", "name": "Linguistics and African Languages" }
       ]
     },
     {
+      "acronym": "EDUCUCATION",
       "name": "Faculty of Education",
       "departments": [
-        "Adult Education and Lifelong Learning",
-        "Arts and Social Sciences Education",
-        "Educational Foundation And Counseling",
-        "Educational Management",
-        "Institute of Education",
-        "Physical And Health Education",
-        "Science And Technology Education"
+        { "acronym": "AELL", "name": "Adult Education and Lifelong Learning" },
+        { "acronym": "ASSE", "name": "Arts and Social Sciences Education" },
+        { "acronym": "EFC", "name": "Educational Foundation and Counseling" },
+        { "acronym": "EM", "name": "Educational Management" },
+        { "acronym": "IE", "name": "Institute of Education" },
+        { "acronym": "PHE", "name": "Physical and Health Education" },
+        { "acronym": "STE", "name": "Science and Technology Education" }
       ]
     },
+
     {
+      "acronym": "EDM",
       "name": "Faculty of Environmental Design and Management",
       "departments": [
-        "Building",
-        "Architecture",
-        "Estate Management",
-        "Fine And Applied Arts",
-        "Quantity Surveying",
-        "Urban and Regional Planning",
-        "Surveying And Geoinformatics"
+        { "acronym": "BLD", "name": "Building" },
+        { "acronym": "ARC", "name": "Architecture" },
+        { "acronym": "EST", "name": "Estate Management" },
+        { "acronym": "FAA", "name": "Fine and Applied Arts" },
+        { "acronym": "QS", "name": "Quantity Surveying" },
+        { "acronym": "URP", "name": "Urban and Regional Planning" },
+        { "acronym": "S&G", "name": "Surveying and Geoinformatics" }
       ]
     },
     {
+      "acronym": "PHARM",
       "name": "Faculty of Pharmacy",
       "departments": [
-        "Clinical Pharmacy and Pharmacy Administration",
-        "Drug Research and Production Unit",
-        "Pharmaceutical Chemistry",
-        "Pharmaceutics",
-        "Pharmacognosy",
-        "Pharmacology"
+        {
+          "acronym": "CPPA",
+          "name": "Clinical Pharmacy and Pharmacy Administration"
+        },
+        { "acronym": "DRPU", "name": "Drug Research and Production Unit" },
+        { "acronym": "PC", "name": "Pharmaceutical Chemistry" },
+        { "acronym": "P", "name": "Pharmaceutics" },
+        { "acronym": "PG", "name": "Pharmacognosy" },
+        { "acronym": "PH", "name": "Pharmacology" }
       ]
     },
     {
+      "acronym": "SOCSCI",
       "name": "Faculty of Social Sciences",
       "departments": [
-        "Demography and Social Statistics",
-        "Economics",
-        "Geography",
-        "Political Science",
-        "Psychology",
-        "Sociology and Anthropology"
+        { "acronym": "DSS", "name": "Demography and Social Statistics" },
+        { "acronym": "ECO", "name": "Economics" },
+        { "acronym": "GEO", "name": "Geography" },
+        { "acronym": "POLSCI", "name": "Political Science" },
+        { "acronym": "PSY", "name": "Psychology" },
+        { "acronym": "SA", "name": "Sociology and Anthropology" }
       ]
     },
+
     {
-      "name": "Faculty of Social Sciences",
+      "acronym": "BMS",
+      "name": "Faculty of Basic Medical Sciences",
       "departments": [
-        "Demography and Social Statistics",
-        "Economics",
-        "Geography",
-        "Political Science",
-        "Psychology",
-        "Sociology and Anthropology"
+        { "acronym": "ACB", "name": "Anatomy and Cell Biology" },
+        { "acronym": "HI", "name": "Haematology and Immunology" },
+        { "acronym": "MM&P", "name": "Medical Microbiology and Parasitology" },
+        { "acronym": "MR", "name": "Medical Rehabilitation" },
+        { "acronym": "HND", "name": "Human Nutrition and Dietetics" },
+        { "acronym": "MB", "name": "Medical Biochemistry" },
+        { "acronym": "MPT", "name": "Medical Pharmacology and Therapeutics" },
+        { "acronym": "NS", "name": "Nursing Sciences" },
+        { "acronym": "PS", "name": "Physiological Sciences" }
       ]
     },
     {
-      "name": "Faculty of Basic Medical Science",
-      "departments": [
-        "Anatomy and Cell Biology",
-        "Haematology and Immunology",
-        "Medical Microbiology and Parasitology",
-        "Medical Rehabilitation",
-        "Human Nutrition and Dietetics",
-        "Medical Biochemistry",
-        "Medical Pharmacology and Therapeutics",
-        "Nursing Sciences",
-        "Physiological Sciences"
-      ]
-    },
-    {
+      "acronym": "CLS",
       "name": "Faculty of Clinical Sciences",
       "departments": [
-        "Anaesthesia",
-        "Community Health and Nutrition",
-        "Dermatology and Venerology",
-        "Medicine",
-        "Mental Health",
-        "Obstetrics, Gynaecology and Perimatology",
-        "Ophthalmology",
-        "Orthopaedics and Traumatology",
-        "Paediatrics and Child Health",
-        "Radiology"
+        { "acronym": "ANA", "name": "Anaesthesia" },
+        { "acronym": "CHN", "name": "Community Health and Nutrition" },
+        { "acronym": "DER", "name": "Dermatology and Venereology" },
+        { "acronym": "MED", "name": "Medicine" },
+        { "acronym": "MH", "name": "Mental Health" },
+        {
+          "acronym": "OGP",
+          "name": "Obstetrics, Gynaecology and Perinatology"
+        },
+        { "acronym": "OPH", "name": "Ophthalmology" },
+        { "acronym": "ORT", "name": "Orthopaedics and Traumatology" },
+        { "acronym": "PCH", "name": "Paediatrics and Child Health" },
+        { "acronym": "RAD", "name": "Radiology" }
       ]
     },
     {
+      "acronym": "DNT",
       "name": "Faculty of Dentistry",
       "departments": [
-        "Child Dental Health",
-        "Oral and Maxillofacial",
-        "Surgery and Oral Pathology",
-        "Preventive and Community Dentistry",
-        "Restorative Dentistry"
+        { "acronym": "CDH", "name": "Child Dental Health" },
+        {
+          "acronym": "OMF",
+          "name": "Oral and Maxillofacial Surgery and Pathology"
+        },
+        { "acronym": "PCD", "name": "Preventive and Community Dentistry" },
+        { "acronym": "RD", "name": "Restorative Dentistry" }
       ]
     }
   ]
