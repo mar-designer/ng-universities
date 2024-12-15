@@ -1,4 +1,6 @@
 {
+  "logo": "https://myschoolportal.net/blog/download/obafemi-awolowo-university-logo/",
+  "current_vc": "",
   "name": "Obafemi Awolowo University",
   "acronym": "OAU",
   "location": {
@@ -9,141 +11,52 @@
   "website": "https://oauife.edu.ng",
   "faculties": [
     {
+      "acronym": "",
       "name": "Faculty of Administration",
       "departments": [
-        "International Relations",
-        "Local Government and Development Studies",
-        "Management & Accounting",
-        "Public Administration",
-        "Business Administration"
-        ]
-    },
-    {
-      "name": "Faculty of Agriculture",
-      "departments": [
-        "Animal Sciences",
-        "Agricultural Economics",
-        "Agricultural Extension and Rural Sociology",
-        "Family Nutrition and Consumer Sciences",
-        "Crop Production and Protection",
-        "Soil Science and Land Resources Management"
-        ]
-    },
-    {
-      "name": "Faculty of Basic Medical Sciences",
-      "departments": [
-        "Medical Rehabilitation",
-        "Nursing Science"
-     ]
-    },
-    {
-      "name": "Faculty of Clinical Sciences",
-      "departments": [
-        "Medicine and Surgery"
-     ]
-    },
-        {
-      "name": "Faculty of Dentistry",
-      "departments": [
-        "Dentistry"
-     ]
-    },
-    {
-      "name": "Faculty of Science",
-      "departments": [
-        "Biochemistry and Molecular Biology",
-        "Botany",
-        "Chemistry",
-        "Geology",
-        "Microbiology",
-        "Physics and Enngineering Physics",
-        "Zoology",
-        "Mathematics"
+        { "acronym": "", "name": "International Relations" },
+        { "acronym": "", "name": "Local Government and Development Studies" },
+        { "acronym": "", "name": "Management and Account" },
+        { "acronym": "", "name": "Public Administration" }
       ]
     },
     {
-      "name": "Faculty of Arts",
-      "departments": [
-        "Dramatic Arts",
-        "English",
-        "History",
-        "Linguistics and African Languages",
-        "Philosophy",
-        "Music",
-        "Religious Studies",
-        "Literature-in-English",
-        "Foreign Languages"
-      ]
-    },
-    {
-      "name": "Faculty of Education",
-      "departments": [
-        "Science and Technology Education",
-        "Arts and Social Science Education",
-        "Adult Education and Lifelong Learning",
-        "Educational Management",
-        "Educational Technology and Library Studies",
-        " Physical and Health Education",
-        "Educational Foundations and Counselling",
-        "Continuing Education"
-        ]
-    },
-   {
-      "name": "Faculty of Environmental Design and Management",
-      "departments": [
-        "Fine Arts",
-        "Architecture",
-        "Building",
-        "Quantity Surveying",
-        "Urban and Regional Planning",
-        " Estate Management"  ,
-        "Surveying and Geoinformatics"   
-       ]
-    },     
-    {
+      "acronym": "",
       "name": "Faculty of Law",
       "departments": [
-        "Business Law",
-        "Public Law",
-        "International Law",
-        "Jurisprudence and Private Law"
-       ]
+        { "acronym": "", "name": "Business Law" },
+        { "acronym": "", "name": "International Law" },
+        { "acronym": "", "name": "Public Law" },
+        { "acronym": "", "name": "Jurisprudence and Private Law" }
+      ]
     },
     {
-      "name": "Faculty of Pharmacy",
+      "acronym": "",
+      "name": "Faculty of Science",
       "departments": [
-        " Clinical Pharmacy and Pharmacy Administration",
-        "Pharmaceutical Chemistry",
-        "Pharmacognosy",
-        "Pharmaceutics",
-        "Pharmacology",
-        "Drug Research and Production Unit"
-       ]
+        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "", "name": "Mathematics" },
+        { "acronym": "", "name": "Botany" },
+        { "acronym": "", "name": "Chemistry" },
+        { "acronym": "", "name": "Geology" },
+        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "", "name": "Zoology" },
+        { "acronym": "", "name": "Physics" }
+      ]
     },
     {
-      "name": "Faculty of Social Sciences",
+      "acroynm": "",
+      "name": "Faculty of Engineering & Technology",
       "departments": [
-        "Demography & Social Statistics",
-        "Geography",
-        "Economics",
-        "Political Science",
-        "Psychology ",
-        "Sociology & Anthropology",
-        "Institute of Entrepreneurship and Development Studies"
-       ]
-    },
-    {
-      "name": "Faculty of Technology",
-      "departments": [
-        "Agricultural and Environmental Engineering",
-        "Chemical Engineering",
-        "Computer Science and Engineering",
-        "Electronic and Electrical Engineering ",
-        "Food Science and Technology",
-        "Civil Engineering",
-        "Mechanincal Engineering",
-        "Material Science and Engineering"
-       ]
+        { "acronym": "", "name": "Aeronautical and Astronautical Engineering" },
+        { "acronym": "", "name": "Mechanical Engineering" },
+        { "acronym": "", "name": "Materials Science and Engineering" },
+        { "acronym": "", "name": "Food Science and Engineering" },
+        { "acronym": "", "name": "Computer Science and Engineering" },
+        { "acronym": "", "name": "Chemical Engineering" },
+        { "acronym": "", "name": "Agricultural and Environmental Engineering" },
+        { "acronym": "", "name": "Civil Engineering" }
+      ]
     }
   ]
 }

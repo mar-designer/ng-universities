@@ -12,6 +12,16 @@ const __dirname = path.dirname(__filename);
 const universitySchema = {
   type: "object",
   properties: {
+    logo: {
+      type: "string",
+      format: "uri",
+      pattern: "^https?://.*$",
+    },
+    current_vc: {
+      type: "string",
+      minLength: 0,
+      maxLength: 250,
+    },
     name: {
       type: "string",
       minLength: 3,
@@ -60,13 +70,28 @@ const universitySchema = {
             minLength: 3,
             maxLength: 200,
           },
+          acronym: {
+            type: "string",
+            minLength: 0,
+            maxLength: 20,
+          },
           departments: {
             type: "array",
             minItems: 1,
             items: {
-              type: "string",
-              minLength: 2,
-              maxLength: 200,
+              type: "object",
+              properties: {
+                acronym: {
+                  type: "string",
+                  minLength: 0,
+                  maxLength: 20,
+                },
+                name: {
+                  type: "string",
+                  minLength: 2,
+                  maxLength: 200,
+                },
+              },
             },
           },
         },

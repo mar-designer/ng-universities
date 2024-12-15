@@ -1,4 +1,6 @@
 {
+  "logo": "https://myschoolportal.net/blog/download/kwara-state-university-logo/",
+  "current_vc": "",
   "name": "Kwara State University",
   "acronym": "KWASU",
   "location": {
@@ -9,86 +11,101 @@
   "website": "https://kwasu.edu.ng",
   "faculties": [
     {
+      "acronym": "",
       "name": "Faculty of Agriculture",
       "departments": [
-        "Agricultural Economics and Extension Services",
-        "Animal Production",
-        "Crop Production",
-        "Food Science and Technology"
+        {
+          "acronym": "",
+          "name": "Agricultural Economics and Extension Services"
+        },
+        { "acronym": "", "name": "Animal Production" },
+        { "acronym": "", "name": "Crop Production" },
+        { "acronym": "", "name": "Food Science and Technology" }
       ]
     },
     {
       "name": "Faculty of Applied Health Science",
       "departments": [
-        "Environmental Health Sciences",
-        "Public Health Science"
-      ]},
+        { "acronym": "", "name": "Environmental Health Sciences" },
+        { "acronym": "", "name": "Public Health Science" }
+      ]
+    },
     {
       "name": "Faculty of Arts",
       "departments": [
-       "Arabic and French",
-       "English and Linguistics",
-       "Fine and Applied Arts",
-       "Performing Arts and Film Studies",
-       "Religions, History and Heritage Studies"
-      ]},
+        { "acronym": "", "name": "Arabic and French" },
+        { "acronym": "", "name": "English and Linguistics" },
+        { "acronym": "", "name": "Fine and Applied Arts" },
+        { "acronym": "", "name": "Performing Arts and Film Studies" },
+        { "acronym": "", "name": "Religions, History and Heritage Studies" }
+      ]
+    },
     {
       "name": "Faculty of Education",
       "departments": [
-       "Business and Entrepreneurship Education",
-       "Early Childhood and Primary Education",
-       "Human Kinetics and Health Education",
-       "Educational Management",
-       "Arts and Science Education"
-      ]},
-      {
-        "name": "Faculty of Engineering and Technology",
-        "departments": [
-          "Aeronautical and Astronautical Engineering",
-          "Civil and Environmental Engineering",
-          "Electrical and Computer Engineering",
-          "Food and Agricultural Engineering",
-          "Material Science Engineering",
-          "Mechanical Engineering"
-        ]
-      },
-      {
-        "name": "Faculty of Information and Communication Technology",
-        "departments": [
-          "Computer Science",
-          "Library and Information Science",
-          "Mass Communication"
-        ]
-      },
-      {
-        "name": "Faculty of Law",
-        "departments": [
-          "Business and Private Law",
-          "Jurisprudence and Public Law"
-        ]
-      },
-      {
-        "name": "Faculty of Management and Social Sciences",
-        "departments": [
-          "Agricultural Economics and Extension Services",
-          "Animal Production, Fisheries and Acquaculture",
-          "Crop Production",
-          "Food Science and Technology"
-        ]
-      },
+        { "acronym": "", "name": "Business and Entrepreneurship Education" },
+        { "acronym": "", "name": "Early Childhood and Primary Education" },
+        { "acronym": "", "name": "Human Kinetics and Health Education" },
+        { "acronym": "", "name": "Educational Management" },
+        { "acronym": "", "name": "Arts and Science Education" }
+      ]
+    },
     {
+      "name": "Faculty of Engineering and Technology",
+      "departments": [
+        { "acronym": "", "name": "Aeronautical and Astronautical Engineering" },
+        { "acronym": "", "name": "Civil and Environmental Engineering" },
+        { "acronym": "", "name": "Electrical and Computer Engineering" },
+        { "acronym": "", "name": "Food and Agricultural Engineering" },
+        { "acronym": "", "name": "Material Science Engineering" },
+        { "acronym": "", "name": "Mechanical Engineering" }
+      ]
+    },
+    {
+      "name": "Faculty of Information and Communication Technology",
+      "departments": [
+        { "acronym": "", "name": "Computer Science" },
+        { "acronym": "", "name": "Library and Information Science" },
+        { "acronym": "", "name": "Mass Communication" }
+      ]
+    },
+    {
+      "name": "Faculty of Law",
+      "departments": [
+        { "acronym": "", "name": "Business and Private Law" },
+        { "acronym": "", "name": "Jurisprudence and Public Law" }
+      ]
+    },
+    {
+      "name": "Faculty of Management and Social Sciences",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Agricultural Economics and Extension Services"
+        },
+        {
+          "acronym": "",
+          "name": "Animal Production, Fisheries and Acquaculture"
+        },
+        { "acronym": "", "name": "Crop Production" },
+        { "acronym": "", "name": "Food Science and Technology" }
+      ]
+    },
+    {
+      "acronym": "",
       "name": "Faculty of Pure and Applied Sciences",
       "departments": [
-        "Biochemistry",
-        "Botany",
-        "Chemistry and Industrial Chemistry",
-        "Environmental Management and Toxicology",
-        "Geology and Mineral Science",
-        "Mathematics and Statistics",
-        "Microbiology",
-        "Physics and Material Sciences",
-        "Plant and Environmental Biology",
-        "Zoology"
-      ]}
+        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "", "name": "Botany" },
+        { "acronym": "", "name": "Chemistry and Industrial Chemistry" },
+        { "acronym": "", "name": "Environmental Management and Toxicology" },
+        { "acronym": "", "name": "Geology and Mineral Science" },
+        { "acronym": "", "name": "Mathematics and Statistics" },
+        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "", "name": "Physics and Material Sciences" },
+        { "acronym": "", "name": "Plant and Environmental Biology" },
+        { "acronym": "", "name": "Zoology" }
+      ]
+    }
   ]
 }
